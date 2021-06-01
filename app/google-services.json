@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "619214705470",
+    "project_id": "virtualwearingclothes",
+    "storage_bucket": "virtualwearingclothes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619214705470:android:7646a087ea6f69b8ee526f",
+        "android_client_info": {
+          "package_name": "com.example.virtualwearingclothes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619214705470-69mi9nfkpgf7408lphcop41bv17vto82.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.virtualwearingclothes",
+            "certificate_hash": "15b9877ff724bd9e26e087621eb08c3312ccef37"
+          }
+        },
+        {
+          "client_id": "619214705470-nfeafqanh1kajlcbjj8g7qj2giga3990.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0qpErX2fkeEjoBYJU1bSfndHsgA2nGuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619214705470-nfeafqanh1kajlcbjj8g7qj2giga3990.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

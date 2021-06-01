@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.virtualwearingclothes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity android:name=".login" />
+        <activity android:name=".CustomerSignUp" />
+        <activity android:name=".EStoreOwnerSignUp" />
+        <activity android:name=".FactorySignUp" />
+        <activity android:name=".sendCodeVrification" />
+        <activity android:name=".sendCodeVrificationforEStoreOwners"/>
+        <activity android:name=".sendCodeVrificationforfactory"/>
+        <activity android:name=".EStoreOwnerDashboard"/>
+        <activity android:name=".EstoreOwnerEditProfile"/>
+        <activity android:name=".EstoreOwnerAddProduct"/>
+        <activity android:name=".EstorOwnerAddProductDescription"/>
+        <activity android:name=".EStoreOwnerShowProduct"/>
+        <activity android:name=".EStoreOwnerShowProductDesc"/>
+        <activity android:name=".EstoreOwnerEditProduct"/>
+        <activity android:name=".AddNewDescription"/>
+        <activity android:name=".Customermainpage"/>
+        <activity android:name=".CustomerShowProduct"/>
+        <activity android:name=".CustomerShowProductDescription"/>
+        <activity android:name=".TryClothes"/>
+        <activity android:name=".CustomerEditProfile"/>
+        <activity android:name=".EstoreOwnerShowOrder"/>
+        <activity android:name=".CustomerCart"/>
+
+    </application>
+    <!--to get image from galary-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE "/>
+
+</manifest>
