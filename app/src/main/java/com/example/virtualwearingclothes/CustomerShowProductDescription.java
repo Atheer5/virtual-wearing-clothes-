@@ -31,7 +31,6 @@ public class CustomerShowProductDescription extends AppCompatActivity {
     private String productId;
     private String productprice;
     private String customerId;
-
     private ArrayList<ProductDesc> productdesc;
     private CustomerShowProductDescAdapter showProductDescAdapter;
     // private Context context ;
@@ -190,6 +189,10 @@ public class CustomerShowProductDescription extends AppCompatActivity {
         TextView t=(TextView)l.getChildAt(2);//get textview
         String s= t.getText().toString();
         intent.putExtra("DescId",s);
+        TextView t1=(TextView)l.getChildAt(3);//get textview
+        String imagepath= t1.getText().toString();
+        intent.putExtra("imagepath",imagepath);
+
         intent.putExtra("productprice", productprice);
 
         TextView Size=(TextView)l.getChildAt(0);//get textview

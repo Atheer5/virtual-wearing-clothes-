@@ -48,7 +48,7 @@ public class CustomerShowProductDescAdapter extends RecyclerView.Adapter<Custome
 
         holder.prodSize.setText("size: "+productdescList.get(position).getproductSize());
         holder.descid.setText(productdescList.get(position).getdescId());
-
+        holder.prodimagepath.setText(productdescList.get(position).getproductimagePath());
         //Glide.with(mContext).load(productList.get(position).getproductdesc().get(0).getproductimagePath()).into(holder.prodImage);
         Picasso.get().load(productdescList.get(position).getproductimagePath()).into(holder.prodImage);
 
@@ -69,6 +69,7 @@ public class CustomerShowProductDescAdapter extends RecyclerView.Adapter<Custome
         ImageView prodImage;
         TextView prodSize;
         TextView descid;
+        TextView prodimagepath;
         public CardView mCardView;
 
         public ViewHolder(@NonNull View itemView) {
@@ -76,6 +77,7 @@ public class CustomerShowProductDescAdapter extends RecyclerView.Adapter<Custome
             prodImage=itemView.findViewById(R.id.productImagedesc);
             prodSize=itemView.findViewById(R.id.productsize);
             descid=itemView.findViewById(R.id.descid);
+            prodimagepath=itemView.findViewById(R.id.productimage);
             mCardView = (CardView) itemView.findViewById(R.id.cardViewdesc2);
         }
     }// end ViewHolder

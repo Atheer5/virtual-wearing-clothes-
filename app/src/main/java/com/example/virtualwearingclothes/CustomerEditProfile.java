@@ -241,15 +241,13 @@ public class CustomerEditProfile extends AppCompatActivity {
                         startActivity(intent2);
                         overridePendingTransition(0,0);
                         return true;
-/*
 
-                    case R.id.nav_profile://real
-                        Intent intent3 = new Intent(ActivityHome.this,ProfileActivity.class);
-                        intent3.putExtra("customerId",customerId.toString());//new
-                        startActivity(intent3);
+                    case R.id.nav_real://real
+                        Intent intent5 = new Intent(CustomerEditProfile.this,CustomerRealShopping.class);
+                        intent5.putExtra("customerId",customerId.toString());//new
+                        startActivity(intent5);
                         overridePendingTransition(0,0);
                         return true;
-*/
 
                 }
 

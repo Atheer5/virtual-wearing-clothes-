@@ -90,14 +90,14 @@ public class Customermainpage extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-/*
-                    case R.id.nav_profile://real
-                        Intent intent3 = new Intent(ActivityHome.this,ProfileActivity.class);
+
+                    case R.id.nav_real://real
+                        Intent intent3 = new Intent(Customermainpage.this,CustomerRealShopping.class);
                         intent3.putExtra("customerId",customerId.toString());//new
                         startActivity(intent3);
                         overridePendingTransition(0,0);
                         return true;
-*/
+
 
                 }
 

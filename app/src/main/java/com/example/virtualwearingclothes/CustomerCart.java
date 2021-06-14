@@ -43,8 +43,7 @@ public class CustomerCart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_cart);
         customerId = getIntent().getStringExtra("customerId");
-
-        recyclerView=findViewById(R.id.recyclerview);
+       recyclerView=findViewById(R.id.recyclerview);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager (this);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setHasFixedSize(true);
@@ -98,15 +97,13 @@ public class CustomerCart extends AppCompatActivity {
 
                     case R.id.nav_orders:
                         return true;
-/*
 
-                    case R.id.nav_profile://real
-                        Intent intent3 = new Intent(ActivityHome.this,ProfileActivity.class);
-                        intent3.putExtra("customerId",customerId.toString());//new
-                        startActivity(intent3);
+                    case R.id.nav_real://real
+                        Intent intent5 = new Intent(CustomerCart.this,CustomerRealShopping.class);
+                        intent5.putExtra("customerId",customerId.toString());//new
+                        startActivity(intent5);
                         overridePendingTransition(0,0);
                         return true;
-*/
 
                 }
 
@@ -126,11 +123,11 @@ public class CustomerCart extends AppCompatActivity {
         query.addValueEventListener(new ValueEventListener() {//addvalueevent...
             @Override
             public void onDataChange(@NonNull DataSnapshot datasnapshot) {
-               // clearAll();
+                clearAll();
                if(datasnapshot.exists()) {
                     for (DataSnapshot snapshot : datasnapshot.getChildren()) {
-                        EStoreOwner estoreowner = snapshot.getValue(EStoreOwner.class);
-                        Toast.makeText(getApplicationContext(),"inside for estore"+estoreowner.getName(), Toast.LENGTH_LONG).show();
+                       EStoreOwner estoreowner = snapshot.getValue(EStoreOwner.class);
+                       // Toast.makeText(getApplicationContext(),"inside for estore"+estoreowner.getName(), Toast.LENGTH_LONG).show();
 
                         databaseReference2 = FirebaseDatabase.getInstance().getReference().child("virtualwearingclothes").child("Estoreowners").child(snapshot.getKey()).child("order");
                         Query query2 = databaseReference2.orderByChild("orderid");
@@ -157,7 +154,7 @@ public class CustomerCart extends AppCompatActivity {
 
 
                                                     //-------------------------------------------------------------------------------------------------------------------------------------
-                                                    databaseReference4 = databaseReference3.child(snapshot3.getKey()).child("description");
+                                                    databaseReference4 = FirebaseDatabase.getInstance().getReference().child("virtualwearingclothes").child("Estoreowners").child(snapshot.getKey()).child("products").child(snapshot3.getKey()).child("description");
                                                     Query query4 = databaseReference4.orderByChild("descId").equalTo(descid);
 
                                                     query4.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -178,6 +175,7 @@ public class CustomerCart extends AppCompatActivity {
                                                                             orderindex.setOrdersize(desc.getproductSize());
                                                                             //Toast.makeText(getApplicationContext(),"inside for customer"+orderindex.getOrdersize(), Toast.LENGTH_LONG).show();
                                                                             orders.add(orderindex);
+
 
                                                                 //-----------------------------------------------------------------------------------------------------------------------------------------
 

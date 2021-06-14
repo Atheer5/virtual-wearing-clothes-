@@ -42,8 +42,8 @@
                     android:layout_height="150dp"
                     android:layout_marginStart="1dp"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginEnd="40dp"
-                    android:layout_marginRight="40dp">
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp">
 
                 </ImageView>
 
@@ -69,21 +69,37 @@
 
                     <TextView
                         android:id="@+id/editprd"
-                        android:layout_width="60dp"
-                        android:layout_height="32dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
                         android:layout_marginStart="12dp"
                         android:layout_marginLeft="12dp"
-                        android:layout_marginTop="50dp"
+                        android:layout_marginTop="40dp"
                         android:layout_weight="0"
                         android:background="@drawable/btnbackground"
                         android:fontFamily="@font/spicy_rice"
                         android:gravity="center"
-                        android:text="Try"
+                        android:padding="5dp"
+                        android:text="Go to wearing room"
                         android:textColor="#535063"
-                        android:textSize="18sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/descid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="16sp"
+                        android:visibility="invisible">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/productimage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
