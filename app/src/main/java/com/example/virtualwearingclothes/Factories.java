@@ -6,7 +6,8 @@ public class Factories {
     private String phoneNumber;
     private String password;
     private String address;
-
+    private double x;
+    private double y;
 
     public Factories() {
     }
@@ -19,7 +20,19 @@ public class Factories {
         this.address = address;
     }
 
+    public Factories(String factoryId, String name, String phoneNumber, String password, String address, double x, double y) {
+        this.factoryId = factoryId;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.password = password;
+        this.address = address;
+        this.x = x;
+        this.y = y;
+    }
 
+    public double getX() { return x;}
+
+    public double getY() { return y; }
 
     public String getFactoryId() {
         return factoryId;
@@ -41,6 +54,10 @@ public class Factories {
         return address;
     }
 
+
+    public void setX(double x) {this.x = x;}
+
+    public void setY(double y) {this.y = y;}
 
     public void setCustomerId(String factoryId) {
         this.factoryId= factoryId;
