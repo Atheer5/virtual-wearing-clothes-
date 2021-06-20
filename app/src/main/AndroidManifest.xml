@@ -46,6 +46,7 @@
         <activity android:name=".EstoreOwnerShowOrder"/>
         <activity android:name=".CustomerCart"/>
         <activity android:name=".CustomerRealShopping"/>
+        <activity android:name=".NearestFactory"/>
 
     </application>
     <!--to get image from galary-->

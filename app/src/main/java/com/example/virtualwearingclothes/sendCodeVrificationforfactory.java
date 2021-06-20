@@ -57,7 +57,8 @@ public class sendCodeVrificationforfactory extends AppCompatActivity implements 
     private EditText editText;
 
     LocationManager locationManager;
-    static int lat=0;static int lon=0;
+    static Double lat=0.0;
+    static Double lon=0.0;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -205,6 +206,7 @@ public class sendCodeVrificationforfactory extends AppCompatActivity implements 
 
                         final String factoryId = databaseReference.push().getKey();
 
+                        while(lat==0)Toast.makeText(sendCodeVrificationforfactory.this,"wait",Toast.LENGTH_LONG).show();
                         Factories factory = new Factories(factoryId, fullname, phonenumber, password,address,lat,lon);
                         databaseReference.push().setValue(factory);
 
@@ -251,9 +253,9 @@ public class sendCodeVrificationforfactory extends AppCompatActivity implements 
     @Override
     public void onLocationChanged(@NonNull Location location) {
 
-        lat=(int)location.getLatitude();
-        lon=(int)location.getLongitude();
-        while(lat==0)Toast.makeText(sendCodeVrificationforfactory.this,"wait",Toast.LENGTH_LONG).show();
+        lat=(Double)location.getLatitude();
+        lon=(Double)location.getLongitude();
+
 
         try {
             Geocoder geocoder = new Geocoder(sendCodeVrificationforfactory.this, Locale.getDefault());

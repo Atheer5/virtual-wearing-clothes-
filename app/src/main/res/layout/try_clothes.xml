@@ -61,7 +61,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="370dp"
+            android:layout_height="355dp"
             android:gravity="center"
             android:orientation="horizontal"
             android:paddingTop="15dp"
@@ -122,7 +122,7 @@
                 android:layout_height="32dp"
                 android:background="@drawable/border"
                 android:fontFamily="@font/spicy_rice"
-                android:text="Find Nearst Tailor shop "
+                android:text="Find Nearest Tailor shop "
                 android:textColor="#535063"
                 android:textSize="18sp" />
 
