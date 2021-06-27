@@ -19,32 +19,23 @@
             android:layout_height="161dp"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/logo"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-
-                android:layout_marginTop="0dp"
-                android:background="#9a8aa5"
-                android:src="@mipmap/ic_launcher_foreground" />
-
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#9a8aa5"
+                android:background="#3F1A4C"
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="Virtual Wearing Clothes "
-                android:textColor="#535063"
+                android:textColor="#C2B3CC"
                 android:textSize="27dp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="14dp"
+            android:background="#FFFFFF"
             android:orientation="horizontal"></LinearLayout>
 
         <LinearLayout
@@ -60,7 +51,7 @@
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="LOGIN"
-                android:textColor="#535063"
+                android:textColor="#3F1A4C"
                 android:textSize="23dp" />
         </LinearLayout>
 
@@ -134,7 +125,7 @@
                 android:background="@drawable/btnbackground"
                 android:fontFamily="@font/spicy_rice"
                 android:text="LOGIN"
-                android:textColor="#535063"
+                android:textColor="#C2B3CC"
                 android:textSize="18sp" />
         </LinearLayout>
 
@@ -159,7 +150,7 @@
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="You dont have account ??"
-                android:textColor="#535063"
+                android:textColor="#3F1A4C"
                 android:textSize="23dp" />
             />
         </LinearLayout>
@@ -176,9 +167,9 @@
                 android:layout_width="260dp"
                 android:layout_height="25dp"
                 android:layout_weight="0"
-                android:background="#6C6B69"
+                android:background="#C2B3CC"
                 android:text="register as customer"
-                android:textColor="#FBFAFA" />
+                android:textColor="#3F1A4C" />
         </LinearLayout>
 
         <LinearLayout
@@ -193,9 +184,9 @@
                 android:layout_width="260dp"
                 android:layout_height="25dp"
                 android:layout_weight="0"
-                android:background="#6C6B69"
+                android:background="#C2B3CC"
                 android:text="register as E-Store owner"
-                android:textColor="#FBFAFA" />
+                android:textColor="#3F1A4C" />
         </LinearLayout>
 
         <LinearLayout
@@ -209,9 +200,9 @@
                 android:layout_width="260dp"
                 android:layout_height="25dp"
                 android:layout_weight="0"
-                android:background="#6C6B69"
+                android:background="#C2B3CC"
                 android:text="register as factory "
-                android:textColor="#FBFAFA" />
+                android:textColor="#3F1A4C" />
         </LinearLayout>
 
         <LinearLayout

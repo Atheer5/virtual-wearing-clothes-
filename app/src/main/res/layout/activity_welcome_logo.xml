@@ -46,7 +46,7 @@
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="WELCOME TO "
-                android:textColor="#535063"
+                android:textColor="#3F1A4C"
                 android:textSize="27dp" />
 
 
@@ -66,7 +66,7 @@
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="Virtual Wearing Clothes "
-                android:textColor="#535063"
+                android:textColor="#3F1A4C"
                 android:textSize="27dp" />
 
 
@@ -86,7 +86,7 @@
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="APPLICATION "
-                android:textColor="#535063"
+                android:textColor="#3F1A4C"
                 android:textSize="27dp" />
 
 

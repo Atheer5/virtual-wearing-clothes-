@@ -25,11 +25,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#9a8aa5"
+                android:background="#3F1A4C"
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="Register As Factory  "
-                android:textColor="#535063"
+                android:textColor="#C2B3CC"
                 android:textSize="32dp" />
         </LinearLayout>
 
@@ -167,7 +167,7 @@
                 android:background="@drawable/btnbackground"
                 android:fontFamily="@font/spicy_rice"
                 android:text="REGISTER"
-                android:textColor="#535063"
+                android:textColor="#C2B3CC"
                 app:backgroundTint="#e4c5d4" />
         </LinearLayout>
 

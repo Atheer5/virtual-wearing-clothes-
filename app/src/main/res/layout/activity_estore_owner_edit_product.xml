@@ -27,11 +27,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_weight="1"
-                android:background="#9a8aa5"
+                android:background="#3F1A4C"
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="Edit Product "
-                android:textColor="#535063"
+                android:textColor="#C2B3CC"
                 android:textSize="25dp" />
         </LinearLayout>
 
@@ -185,7 +185,8 @@
                 android:background="@drawable/btnbackground"
                 android:fontFamily="@font/spicy_rice"
                 android:text="Edit"
-                android:textColor="#535063"
+                android:textColor="#C2B3CC"
+                android:textSize="21sp"
                 app:backgroundTint="#e4c5d4" />
         </LinearLayout>
 

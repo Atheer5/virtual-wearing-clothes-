@@ -18,12 +18,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_weight="1"
-                android:background="#9a8aa5"
+                android:background="#3F1A4C"
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="Add product description"
-                android:textColor="#535063"
-                android:textSize="32dp" />
+                android:textColor="#C2B3CC"
+                android:textSize="25dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -129,7 +129,7 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="save description "
-                android:textColor="#535063" />
+                android:textColor="#C2B3CC" />
 
         </LinearLayout>
     </LinearLayout>

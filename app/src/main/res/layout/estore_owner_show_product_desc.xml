@@ -42,8 +42,8 @@
                     android:layout_height="150dp"
                     android:layout_marginStart="1dp"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginEnd="40dp"
-                    android:layout_marginRight="40dp">
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp">
 
                 </ImageView>
 
@@ -62,6 +62,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:textColor="#3F1A4C"
                         android:textSize="16sp">
 
                     </TextView>
@@ -76,6 +77,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:textColor="#3F1A4C"
                         android:textSize="16sp">
 
                     </TextView>
@@ -92,7 +94,7 @@
                         android:fontFamily="@font/spicy_rice"
                         android:gravity="center"
                         android:text="Edit"
-                        android:textColor="#535063"
+                        android:textColor="#C2B3CC"
                         android:textSize="18sp" />
 
                     <TextView

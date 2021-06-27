@@ -56,14 +56,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="E-Storee Name " />
+                        android:text="E-Storee Name "
+                        android:textColor="#3F1A4C" />
 
                     <TextView
                         android:id="@+id/cstorename"
                         android:layout_width="116dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:text=""
+                        android:textColor="#3F1A4C" />
                 </TableRow>
 
 
@@ -80,14 +82,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Product price" />
+                        android:text="Product price"
+                        android:textColor="#3F1A4C" />
 
                     <TextView
                         android:id="@+id/cocprice"
                         android:layout_width="116dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:text=""
+                        android:textColor="#3F1A4C" />
                 </TableRow>
 
                 <TableRow
@@ -103,14 +107,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Product Size" />
+                        android:text="Product Size"
+                        android:textColor="#3F1A4C" />
 
                     <TextView
                         android:id="@+id/cocsize"
                         android:layout_width="116dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:text=""
+                        android:textColor="#3F1A4C" />
                 </TableRow>
 
             <TableRow
@@ -120,19 +126,22 @@
                 android:paddingTop="10dp"
                 android:paddingRight="10dp"
                 android:paddingBottom="10dp">
+
                 <TextView
                     android:id="@+id/textViewh"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Date" />
+                    android:text="Date"
+                    android:textColor="#3F1A4C" />
 
                 <TextView
                     android:id="@+id/codate"
                     android:layout_width="116dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:textColor="#3F1A4C" />
             </TableRow>
 
                 <TableRow
@@ -142,19 +151,22 @@
                     android:paddingTop="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp">
+
                     <TextView
                         android:id="@+id/textViewm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Status" />
+                        android:text="Status"
+                        android:textColor="#3F1A4C" />
 
                     <TextView
                         android:id="@+id/codelivered"
                         android:layout_width="116dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:text=""
+                        android:textColor="#3F1A4C" />
                 </TableRow>
 
 

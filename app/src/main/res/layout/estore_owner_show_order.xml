@@ -73,14 +73,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="customer Name" />
+                        android:text="customer Name"
+                        android:textColor="#3F1A4C" />
 
                     <TextView
                         android:id="@+id/ocname"
                         android:layout_width="116dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:text=""
+                        android:textColor="#3F1A4C" />
                 </TableRow>
 
                 <TableRow
@@ -96,14 +98,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Phone Number" />
+                        android:text="Phone Number"
+                        android:textColor="#3F1A4C" />
 
                     <TextView
                         android:id="@+id/ocphonenum"
                         android:layout_width="116dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:text=""
+                        android:textColor="#3F1A4C" />
                 </TableRow>
 
                 <TableRow
@@ -119,14 +123,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Product price" />
+                        android:text="Product price"
+                        android:textColor="#3F1A4C" />
 
                     <TextView
                         android:id="@+id/ocprice"
                         android:layout_width="116dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:text=""
+                        android:textColor="#3F1A4C" />
                 </TableRow>
 
                 <TableRow
@@ -142,14 +148,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Product Size" />
+                        android:text="Product Size"
+                        android:textColor="#3F1A4C" />
 
                     <TextView
                         android:id="@+id/ocsize"
                         android:layout_width="116dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:text=""
+                        android:textColor="#3F1A4C" />
                 </TableRow>
 
 
@@ -171,7 +179,7 @@
                         android:background="@drawable/btnbackground"
                         android:fontFamily="@font/spicy_rice"
                         android:text="delivered"
-                        android:textColor="#535063"
+                        android:textColor="#C2B3CC"
                         android:textSize="18sp" />
                 </TableRow>
 

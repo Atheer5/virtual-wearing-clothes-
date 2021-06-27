@@ -18,11 +18,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#9a8aa5"
+                android:background="#3F1A4C"
                 android:fontFamily="@font/spicy_rice"
                 android:gravity="center"
                 android:text="E-Store Dashboard  "
-                android:textColor="#535063"
+                android:textColor="#C2B3CC"
                 android:textSize="32dp" />
         </LinearLayout>
 
@@ -46,7 +46,7 @@
                 android:layout_width="49dp"
                 android:layout_height="49dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/edit_profile_image"
+                android:src="@drawable/edit_profile_image2"
 
                 />
 
@@ -58,6 +58,7 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="7dp"
                 android:text="Edit Profile "
+                android:textColor="#3F1A4C"
                 android:textSize="24dp" />
         </LinearLayout>
 
@@ -86,6 +87,7 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="7dp"
                 android:text="Add Product"
+                android:textColor="#3F1A4C"
                 android:textSize="24dp" />
         </LinearLayout>
 
@@ -114,6 +116,7 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="7dp"
                 android:text="Show Product "
+                android:textColor="#3F1A4C"
                 android:textSize="24dp" />
         </LinearLayout>
 
@@ -142,6 +145,7 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="7dp"
                 android:text="Show Order"
+                android:textColor="#3F1A4C"
                 android:textSize="24dp" />
         </LinearLayout>
 
@@ -172,6 +176,7 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="7dp"
                 android:text="Logout "
+                android:textColor="#3F1A4C"
                 android:textSize="24dp" />
         </LinearLayout>
 

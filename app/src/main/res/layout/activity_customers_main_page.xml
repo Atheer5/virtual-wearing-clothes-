@@ -27,27 +27,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-
-            android:layout_marginTop="0dp"
-            android:background="#9a8aa5"
-            android:src="@mipmap/ic_launcher_foreground" />
-
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#9a8aa5"
+            android:background="#3F1A4C"
             android:fontFamily="@font/spicy_rice"
             android:gravity="center"
             android:text="Virtual Wearing Clothes "
-            android:textColor="#535063"
-            android:textSize="20dp" />
+            android:textColor="#C2B3CC"
+            android:textSize="25dp" />
 
     </LinearLayout>
 
@@ -57,7 +47,9 @@
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="350dp"
-        android:background="#D1C7DF"
+        android:background="#C2B3CC"
+        app:itemIconTint="#3F1A4C"
+        app:itemTextColor="#3F1A4C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recyclerview"

@@ -62,6 +62,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
                         android:textSize="16sp">
 
                     </TextView>
@@ -71,8 +72,8 @@
                         android:id="@+id/editprd"
                         android:layout_width="wrap_content"
                         android:layout_height="43dp"
-                        android:layout_marginStart="12dp"
-                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="40dp"
                         android:layout_weight="0"
                         android:background="@drawable/btnbackground"
@@ -80,7 +81,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:text="Go to wearing room"
-                        android:textColor="#535063"
+                        android:textColor="#C2B3CC"
                         android:textSize="14sp" />
 
                     <TextView

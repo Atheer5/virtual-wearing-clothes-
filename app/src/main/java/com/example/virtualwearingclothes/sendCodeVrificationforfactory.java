@@ -81,9 +81,9 @@ public class sendCodeVrificationforfactory extends AppCompatActivity implements 
         }
 
 
-        getLocation();
+            getLocation();
 
-        Toast.makeText(sendCodeVrificationforfactory.this,"location="+lat+lon,Toast.LENGTH_LONG).show();
+
 
 
 
@@ -206,7 +206,9 @@ public class sendCodeVrificationforfactory extends AppCompatActivity implements 
 
                         final String factoryId = databaseReference.push().getKey();
 
-                        while(lat==0)Toast.makeText(sendCodeVrificationforfactory.this,"wait",Toast.LENGTH_LONG).show();
+                      while(lat==0.0)Toast.makeText(sendCodeVrificationforfactory.this,"wait",Toast.LENGTH_LONG).show();
+                        Toast.makeText(sendCodeVrificationforfactory.this,"location="+lat+lon,Toast.LENGTH_LONG).show();
+
                         Factories factory = new Factories(factoryId, fullname, phonenumber, password,address,lat,lon);
                         databaseReference.push().setValue(factory);
 
@@ -255,7 +257,7 @@ public class sendCodeVrificationforfactory extends AppCompatActivity implements 
 
         lat=(Double)location.getLatitude();
         lon=(Double)location.getLongitude();
-
+       // Toast.makeText(sendCodeVrificationforfactory.this,"location="+lat+lon,Toast.LENGTH_LONG).show();
 
         try {
             Geocoder geocoder = new Geocoder(sendCodeVrificationforfactory.this, Locale.getDefault());

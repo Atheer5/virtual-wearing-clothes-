@@ -6,7 +6,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ffffff"
+        android:background="#Ffffff"
         android:orientation="vertical">
 
 
@@ -91,7 +91,7 @@
                 android:background="@drawable/border"
                 android:fontFamily="@font/spicy_rice"
                 android:text="Try"
-                android:textColor="#535063"
+                android:textColor="#3F1A4C"
                 android:textSize="18sp" />
 
 
@@ -103,7 +103,7 @@
                 android:background="@drawable/btnbackground"
                 android:fontFamily="@font/spicy_rice"
                 android:text="Buy"
-                android:textColor="#535063"
+                android:textColor="#C2B3CC"
                 android:textSize="18sp" />
 
 
@@ -123,7 +123,7 @@
                 android:background="@drawable/border"
                 android:fontFamily="@font/spicy_rice"
                 android:text="Find Nearest Tailor shop "
-                android:textColor="#535063"
+                android:textColor="#3F1A4C"
                 android:textSize="18sp" />
 
 
