@@ -38,7 +38,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginBottom="310dp"
+            android:layout_marginBottom="150dp"
             android:layout_weight="1"
             android:background="@drawable/border">
 
@@ -53,6 +53,7 @@
                     android:id="@+id/textView8"
                     android:layout_width="170dp"
                     android:layout_height="50dp"
+                    android:paddingLeft="20dp"
                     android:text="Name "
                     android:textColor="#3F1A4C"
                     android:textSize="18sp" />
@@ -61,6 +62,7 @@
                     android:id="@+id/factnam"
                     android:layout_width="170dp"
                     android:layout_height="50dp"
+                    android:paddingRight="10dp"
                     android:text=""
                     android:textColor="#3F1A4C"
                     android:textSize="14sp" />
@@ -78,6 +80,7 @@
                     android:id="@+id/textView11"
                     android:layout_width="170dp"
                     android:layout_height="50dp"
+                    android:paddingLeft="20dp"
                     android:text="Address"
                     android:textColor="#3F1A4C"
                     android:textSize="18sp" />
@@ -86,6 +89,7 @@
                     android:id="@+id/factaddres"
                     android:layout_width="170dp"
                     android:layout_height="50dp"
+                    android:paddingRight="10dp"
                     android:text=""
                     android:textColor="#3F1A4C"
                     android:textSize="14sp" />
@@ -103,6 +107,7 @@
                     android:id="@+id/textView12"
                     android:layout_width="170dp"
                     android:layout_height="50dp"
+                    android:paddingLeft="20dp"
                     android:text="Phone Number"
                     android:textColor="#3F1A4C"
                     android:textSize="18sp" />
@@ -111,6 +116,7 @@
                     android:id="@+id/factPhnum"
                     android:layout_width="170dp"
                     android:layout_height="50dp"
+                    android:paddingRight="10dp"
                     android:text=""
                     android:textColor="#3F1A4C"
                     android:textSize="14sp" />

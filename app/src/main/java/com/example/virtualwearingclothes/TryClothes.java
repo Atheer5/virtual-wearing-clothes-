@@ -143,7 +143,7 @@ public class TryClothes extends AppCompatActivity implements LocationListener {
         }
 
                 getLocation();
-        Toast.makeText(getApplication(),"Location: "+lat+"  "+lon,Toast.LENGTH_SHORT).show();
+      //  Toast.makeText(getApplication(),"Location: "+lat+"  "+lon,Toast.LENGTH_SHORT).show();
 
 
 
@@ -248,7 +248,7 @@ public class TryClothes extends AppCompatActivity implements LocationListener {
         findViewById(R.id.findnerst).setOnClickListener(new View.OnClickListener() {
                                                          @Override
                                                          public void onClick(View v) {
-                                                             Toast.makeText(TryClothes.this,"inside button",Toast.LENGTH_SHORT).show();
+                                                           //  Toast.makeText(TryClothes.this,"inside button",Toast.LENGTH_SHORT).show();
 
                                                              //get all factory from DB
 
@@ -270,7 +270,7 @@ public class TryClothes extends AppCompatActivity implements LocationListener {
                                                                          for(int i=0;i<allfactory.size();i++){
                                                                              if(nearestfact.getDistance() >allfactory.get(i).getDistance())
                                                                                  nearestfact=allfactory.get(i);
-                                                                             Toast.makeText(TryClothes.this,"nearest fact "+nearestfact.getName(),Toast.LENGTH_SHORT).show();
+                                                                         //    Toast.makeText(TryClothes.this,"nearest fact "+nearestfact.getName(),Toast.LENGTH_SHORT).show();
 
                                                                          }
                                                                          //_________________to nearest factory page ____________________________________________________________________________________________
@@ -318,7 +318,7 @@ public class TryClothes extends AppCompatActivity implements LocationListener {
                     @Override
                     public void onResponse(String response) {
                        // Toast.makeText(getApplication(),"response"+response.substring(0,10),Toast.LENGTH_LONG).show();
-                         Toast.makeText(getApplication(),"response"+response.substring(0,8),Toast.LENGTH_LONG).show();
+                       //  Toast.makeText(getApplication(),"response"+response.substring(0,8),Toast.LENGTH_LONG).show();
 
                         byte[] decodedString = Base64.decode(response, Base64.DEFAULT);
                         Bitmap decodedByte = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
@@ -504,7 +504,7 @@ Toast.makeText(getApplicationContext(),"Done.", Toast.LENGTH_LONG).show();
 
         lat=(Double)location.getLatitude();
         lon=(Double)location.getLongitude();
-        Toast.makeText(this, ""+lat+","+lon, Toast.LENGTH_SHORT).show();
+      //  Toast.makeText(this, ""+lat+","+lon, Toast.LENGTH_SHORT).show();
         try {
             Geocoder geocoder = new Geocoder(TryClothes.this, Locale.getDefault());
             List<Address> addresses = geocoder.getFromLocation(location.getLatitude(),location.getLongitude(),1);

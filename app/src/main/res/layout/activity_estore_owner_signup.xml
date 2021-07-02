@@ -168,8 +168,7 @@
                 android:background="@drawable/btnbackground"
                 android:fontFamily="@font/spicy_rice"
                 android:text="REGISTER"
-                android:textColor="#C2B3CC"
-                app:backgroundTint="#e4c5d4" />
+                android:textColor="#C2B3CC" />
         </LinearLayout>
 
 

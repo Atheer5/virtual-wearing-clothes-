@@ -178,8 +178,7 @@
                 android:fontFamily="@font/spicy_rice"
                 android:text="Edit"
                 android:textColor="#C2B3CC"
-                android:textSize="21sp"
-                app:backgroundTint="#e4c5d4" />
+                android:textSize="21sp"/>
         </LinearLayout>
 
         <LinearLayout

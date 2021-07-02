@@ -61,7 +61,7 @@ public class AddNewDescription  extends AppCompatActivity {
         estorownerId=getIntent().getStringExtra("estoreId");
         productId=getIntent().getStringExtra("productId");
 
-        Toast.makeText(getApplicationContext(),",,,,,,,,,,,,,,,,,,,",Toast.LENGTH_LONG).show();
+      //  Toast.makeText(getApplicationContext(),",,,,,,,,,,,,,,,,,,,",Toast.LENGTH_LONG).show();
         progressDialog = new ProgressDialog(AddNewDescription.this);
         storageReference = FirebaseStorage.getInstance().getReference("Images");
 

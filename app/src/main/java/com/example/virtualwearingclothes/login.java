@@ -240,7 +240,7 @@ public class login extends AppCompatActivity {
 
                         if(Password.getText().toString().equals(factory.getPassword())){
                             Toast.makeText(getApplicationContext(),"WELCOME",Toast.LENGTH_LONG).show();
-                            Intent intent = new Intent(login.this,FactorySignUp.class);
+                            Intent intent = new Intent(login.this,login.class);
                             intent.putExtra("factoryId",factory.getFactoryId());
                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);

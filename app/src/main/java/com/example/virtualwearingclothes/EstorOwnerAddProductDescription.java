@@ -58,7 +58,7 @@ public class EstorOwnerAddProductDescription  extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_estor_owner_add_product_description);
         estorownerId=getIntent().getStringExtra("estoreId");
-        Toast.makeText(getApplicationContext(),".....",Toast.LENGTH_LONG).show();
+      //  Toast.makeText(getApplicationContext(),".....",Toast.LENGTH_LONG).show();
 
         progressDialog = new ProgressDialog(EstorOwnerAddProductDescription.this);
 

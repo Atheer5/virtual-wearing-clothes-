@@ -202,12 +202,12 @@ public class sendCodeVrificationforfactory extends AppCompatActivity implements 
                         String password = getIntent().getStringExtra("password");
 
 
-                        Toast.makeText(sendCodeVrificationforfactory.this,"location"+lat+lon,Toast.LENGTH_LONG).show();
+                       // Toast.makeText(sendCodeVrificationforfactory.this,"location"+lat+lon,Toast.LENGTH_LONG).show();
 
                         final String factoryId = databaseReference.push().getKey();
 
                       while(lat==0.0)Toast.makeText(sendCodeVrificationforfactory.this,"wait",Toast.LENGTH_LONG).show();
-                        Toast.makeText(sendCodeVrificationforfactory.this,"location="+lat+lon,Toast.LENGTH_LONG).show();
+                       // Toast.makeText(sendCodeVrificationforfactory.this,"location="+lat+lon,Toast.LENGTH_LONG).show();
 
                         Factories factory = new Factories(factoryId, fullname, phonenumber, password,address,lat,lon);
                         databaseReference.push().setValue(factory);

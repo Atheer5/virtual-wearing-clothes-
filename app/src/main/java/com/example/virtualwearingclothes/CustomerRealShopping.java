@@ -276,7 +276,7 @@ public class CustomerRealShopping extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
                         // Toast.makeText(getApplication(),"response"+response.substring(0,10),Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplication(),"response"+response.substring(0,8),Toast.LENGTH_LONG).show();
+                       // Toast.makeText(getApplication(),"response"+response.substring(0,8),Toast.LENGTH_LONG).show();
 
                         byte[] decodedString = Base64.decode(response, Base64.DEFAULT);
                         Bitmap decodedByte = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
